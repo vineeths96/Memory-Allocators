@@ -1,0 +1,45 @@
+Synthetic testing
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The follwoing resutls were obtained from the synthetic testing for SPheap
+
+Exponential testing
+Number of allocation requests : 2000
+Number of deallocation request : 1310
+Number of area splits : 2303
+Number of buddy recombination : 343
+Internal fragmentation : 0.185230
+
+Uniform
+Number of allocation requests : 2000
+Number of deallocation request : 987
+Number of area splits : 2997
+Number of buddy recombination : 559
+Internal fragmentation : 0.174779
+
+For uniform random memory allocation, the fragmentaion is less compared to exponential random memory allocation.
+
+Polynomial arithmetic implementation
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The follwoing resutls were obtained from ploynaomial arithmetic implementation
+For the polynomial : Dividend (2,1) (1,2) (0,1)
+	    	     Divisor (1,1) (0,1)
+
+OneBin with bin size 32
+Number of allocated bins : 0
+Number of bin allocation request : 7
+Number of bin deallocation request : 7
+Internal fragmentation : 0.333333
+Total time taken for allocation : 0.000045
+Total time taken for free : 0.000025
+
+SPHEAP
+Number of allocations : 0
+Number of allocation requests : 7
+Number of deallocation request : 7
+Number of area splits : 34
+Number of buddy recombination : 34
+Internal fragmentation : 0.000000
+Total time for allocation : 0.000127 seconds
+Total time for free : 0.000083 seconds
+
+Time taken for SPheap is greater than that of OneBin most probably owing to the splitting and recombinations of memory.
