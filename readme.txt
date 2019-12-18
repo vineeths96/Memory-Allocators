@@ -17,10 +17,12 @@ PROGRAM
 
 INTRODUCTION
 -------------
-	The enitre program has been segregrated to two folders - tests and polynomial. Tests folder contain the SPHeap 
-implementation and the uniform and exponential synthetic testing. The polynomial folder contains the implementing of
-SPHeap and OneBin memory alloacation in polynomial arithmetic program. 
-	
+
+	This program deals with the implementaion of "Weighted Buddy Method for Dynamic Storage Allocation" proposed
+by Shen and Peterson and "OneBin Dynamic Storage Allocation". The enitre program has been segregrated to two folders
+- tests and polynomial. Tests folder contain the SPHeap implementation and the uniform and exponential synthetic testing.
+The polynomial folder contains the implementing of SPHeap and OneBin memory alloacation in polynomial arithmetic program. 
+Refer the problem statement file for detailed information.
 
 OPERATING SYSTEM AND SOFTWARE REQUIRMENTS
 ------------------------------------------
@@ -42,6 +44,4 @@ CONTACT
 ========
 Developed by
 Name	 : Vineeth S
-SR No	 : 16543
-Email id : vineeths@iisc.ac.in
 
